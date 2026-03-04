@@ -21,7 +21,7 @@ def create_text_analyzer_skill():
     - 提取关键词
     """
     
-    skill_dir = Path("d:/work/ai_project/CoPaw/test_learn/text_analyzer_skill")
+    skill_dir = Path("d:/work/ai_project/CoPaw/test_learn/explore_skills/text_analyzer_skill")
     skill_dir.mkdir(parents=True, exist_ok=True)
     
     # 1. 创建SKILL.md
