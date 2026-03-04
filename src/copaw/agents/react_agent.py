@@ -203,6 +203,8 @@ class CoPawAgent(ReActAgent):
 
         return toolkit
 
+
+    # 注册技能
     def _register_skills(self, toolkit: Toolkit) -> None:
         """Load and register skills from working directory.
 
